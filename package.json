@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "script.js",
+  "homepage": "https://asyr01.github.io/countdown",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build
   },
   "keywords": [],
   "author": "Ali Sayar",
